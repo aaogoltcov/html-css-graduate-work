@@ -1,0 +1,38 @@
+Семен, добрый день!
+Спасибо за замечания))
+1. Доработал все Error, остались только 7 Warnings.
+2. Задал padding-bottom: 128px из расчета общей высоты 450px
+3-4. Подключил шрифт как в образце, для body указал общий шрифт как OpenSans, а ниже по стилям убрал font-family и указал font-weight.
+5. margin: auto заменил на  margin-left: auto и margin-right: auto.
+6. Тег menu заменил на Nav.
+7. .menu-list-item - display:inline-block заменил на inline-flex.
+8. .welcome-description - p заменил на h1.
+9. .welcome-description - боковые padding убрал, оставил только только боковые margin.
+10. .news-column, .right-column, .picture-column, .news-description - убрал flex.
+11. .picture-column - высоту убрал.
+12. .article-type - сделал список ul.
+13. .article-title - p заменил на h2, внутри также оставил ссылу.
+14. .date-autor-article - display оставил flex, box-sizing убрал.
+15. time - flex, box-sizing, margin, padding убрал.
+16. Заголовки в сайдбаре - сделал h2.
+17. recent-posts-top-bar - убрал, сделал через after.
+18. Везде, где flex-direction: column; убрал flex.
+19. .recent-posts-top-title - убрал flex.
+20. Было замечание про лишние стили, которые ничего не делать - через инспектор проверил все, лишнее убрал. Получилось очень много - не стал писать их тут, закомментировал в коде.
+21. .article-link - aside заменил на article.
+22. .article-link-image img - height, margin убрал.
+23. search-button - сделал иконку через фон, img убрал. Внутри сделал скрытый span с текстом как в соцсетях.
+24. Сделал скрытое описание для полей (одно уже было сделано, второе пропустил).
+25. .subscribing-block - изменил разметку, заголовок вынес из form
+26. subscribing-button - вынес из label
+27. tags-block - убрал лишний div.
+28. tags-list-item - зделал всю область кликабельной.
+29. categories-block - сделал список ul.
+30. .categories-list-item - height, width, box-sizing убрал, оставил display: flex
+31. categories-list-item - p убрал, настроил стили по новой.
+32. .footer-block - height убрал.
+33. .footer-address-block - height, width убрал.
+34. .articles-socials, .copyright-block - width убрал, отцентрировал с помощью margin.
+35. Для social-twitter убрал лишний div.
+36. .copyright-block p - сделал ссылкой.
+37. Pixel Perfect сделал в нескольких браузерах. Код для Pixel Perfect оставил в стилях, закоменитровал.
