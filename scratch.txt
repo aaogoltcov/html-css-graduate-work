@@ -36,3 +36,27 @@
 35. Для social-twitter убрал лишний div.
 36. .copyright-block p - сделал ссылкой.
 37. Pixel Perfect сделал в нескольких браузерах. Код для Pixel Perfect оставил в стилях, закоменитровал.
+
+#####
+
+
+1. Для .menu-list-item, .tags-list-item не только убрал display: inline-block;, но и также часть свойств перенес на уровень menu-list и .tags-list. Задал flex для menu-list и .tags-list.
+2. menu-list - обнулил стандартные отступа списка.
+3. noemi-logo - убрал высоту.
+4. main-block - убрал. Внутри main сразу левая и правая части.
+5. Для right-column заменил тег на aside.
+6. Для article-type - текст внутри сделал ссылкой.
+7. Убрал article-title.
+8. Для .article-context p убрал font-weight.
+9. title-label-column поменял на h2, p внутри убрал.
+10. .article-link-image img - flex свойста убрал, задал display: block.
+11. .article-link-content - flex свойста убрал.
+12. time - flex-wrap убрал.
+13. Внутри article-link заголовки h2 заменил на h3.
+14. search-section, subscribing-button-block - input и span оборачиваем в label.
+15. Убрал flex в .footer-address-block.
+16. Убрал flex-wrap в .footer-block.
+17. .articles-socials - убирал все, и задал симметричные padding-top и padding-bottom до нужной высоты.
+16. Для .socials сделал display: flex, justify-content: center.
+17. Для .social-item убрал display и box-sizing убираем.
+18. Для .social-twitter a убрал box-sizing и добавил свойств display: block.
