@@ -232,7 +232,7 @@ time {
 
 .article-link {
   display: flex;
-  align-items: top;
+  align-items: flex-start;
 }
 
 .article-link:nth-child(n + 2) {
