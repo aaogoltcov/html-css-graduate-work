@@ -1,4 +1,4 @@
- body {
+/* body {
   margin: 0;
   font-family: Open Sans, Arial, san-serif;
   overflow-x: hidden;
@@ -13,7 +13,7 @@ body::after {
   opacity: 0.3;
   pointer-events: none;
   z-index: 99;
-}
+}*/
 
 @font-face {
   font-family: OpenSans;
